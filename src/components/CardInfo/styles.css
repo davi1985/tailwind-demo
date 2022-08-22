@@ -1,0 +1,10 @@
+.card-info-container {
+  @apply w-full bg-center rounded-xl mb-6 p-8;
+  height: 330px;
+  background-image: url("https://i.ibb.co/dWKHTRv/01.jpg");
+}
+
+.card-info {
+  @apply bg-white w-full h-full rounded-3xl p-8 bg-opacity-10;
+  @apply border border-white shadow-lg text-white;
+}
