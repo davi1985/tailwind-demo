@@ -9,7 +9,7 @@ type ButtonProps = {
 export const Button = ({ text, type, extraClassName }: ButtonProps) => {
   return (
     <button
-      className={`w-full border border-gray-400 py-3 rounded-lg ${extraClassName}`}
+      className={`w-full border border-gray-500 bg-gray-300 py-3 rounded-lg ${extraClassName}`}
       type={type}
     >
       {text}

@@ -91,12 +91,16 @@ export const Form = ({ cardInfo, setCardInfo }: FormProps) => {
       </div>
 
       <div className="grid grid-cols-2 gap-4 mt-8 text-lg">
-        <Button text="Cancel" type="button" extraClassName="bg-gray-50" />
+        <Button
+          text="Cancel"
+          type="button"
+          extraClassName="bg-red-500 text-gray-100"
+        />
 
         <Button
           text="Update"
           type="submit"
-          extraClassName="bg-purple-700 text-white"
+          extraClassName="bg-purple-800 text-white"
         />
       </div>
     </form>

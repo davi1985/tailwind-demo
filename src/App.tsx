@@ -16,11 +16,11 @@ export const App = () => {
     <Card>
       <CardInfo cardInfo={cardInfo} />
 
-      <h1 className="font-light tracking-wide text-2xl mb2">
+      <h1 className="font-light tracking-wide text-2xl mb2 text-gray-200">
         Update payment method
       </h1>
 
-      <p className="text-gray-500 mb-4 text-lg">Update your card details</p>
+      <p className="text-gray-400 mb-4 text-lg">Update your card details</p>
 
       <Form cardInfo={cardInfo} setCardInfo={setCardInfo} />
     </Card>
