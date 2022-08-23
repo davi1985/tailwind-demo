@@ -2,7 +2,7 @@ import { Button } from "../Button";
 import { Input } from "../Input";
 
 import "./styles.css";
-import { Dispatch, FormEvent, SetStateAction, useState } from "react";
+import { Dispatch, FormEvent, SetStateAction } from "react";
 import { CardInfoProps } from "../../@types/types";
 
 type FormProps = {
@@ -100,7 +100,7 @@ export const Form = ({ cardInfo, setCardInfo }: FormProps) => {
         <Button
           text="Update"
           type="submit"
-          extraClassName="bg-purple-800 text-white"
+          extraClassName="bg-purple-600 text-white"
         />
       </div>
     </form>
